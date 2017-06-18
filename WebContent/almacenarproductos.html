@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html Lang="es">
+	<head>
+		<meta charset='utf-8' >
+		<title>Almacenar Productos</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src='scriptPrincipal.js'></script>
+	</head>
+	<body>
+		<div id='contenido'>
+			<header>
+				<hgroup>
+					<h1> eTECServer</h1>
+				</hgroup>
+				<nav>
+					<ul>
+						<li><a href='index.html'> Inicio</a> </li>
+					
+						
+						
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div id='textoPr'>
+	
+					<hgroup>
+						<h1> ALMACENAR PRODUCTOS</h1>
+					</hgroup>
+					
+					<label for=' nombre'>CREAR NUEVO TIPO DE PRODUCTO:</label>
+					<input type='text' id='nombre' placeholder= 'Digite el tipo de producto'>
+					<input type='submit' value='Guardar' id='btnSave'>
+													
+					<label for=' nombre'> CREAR NUEVO PRODUCTO:</label>
+					
+					<input type='submit' value='Crear nuevo producto' id='btnSaveEdit' onclick = "location='/eTECServer/editarDetallesNuevoProducto.html'">
+						
+
+				</div>
+			</section>
+		</div>
+		<footer>
+			<canvas id='miCanvas'>
+			</canvas>
+		</footer>
+	</body>
+ </html>

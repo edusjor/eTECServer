@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html Lang="es">
+	<head>
+		<meta charset='utf-8' >
+		<title>Registrar Local</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src='scriptPrincipal.js'></script>
+	</head>
+	<body>
+		<div id='contenido'>
+			<header>
+				<hgroup>
+					<h1> eTECServer</h1>
+				</hgroup>
+				<nav>
+					<ul>
+						<li><a href='index.html'> Inicio</a> </li>
+												
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div id='textoPr'>
+	
+					<hgroup>
+						<h1> TIPO Y NOMBRE DEL LOCAL</h1>
+					</hgroup>
+					
+					<label for=' nombre'>NOMBRE:</label>
+					<input type='text' id='nombre' placeholder= 'Digite el nombre'>
+					
+					<label for=' nombre'>SELECCIONE EL TIPO DE LOCAL:</label>
+				
+					<input type='submit' value='TIENDA' id='btnSaveEdit' onclick = "location='/eTECServer/editarnuevoproducto.html'">
+					
+					<input type='submit' value='GASOLINERA' id='btnSaveEdit' onclick = "location='/eTECServer/editarnuevoproducto.html'">
+					
+					<input type='submit' value='CENTRO DE DISTRIBUCION' id='btnSaveEdit' onclick = "location='/eTECServer/editarnuevoproducto.html'">
+					
+
+				</div>
+			</section>
+		</div>
+		<footer>
+			<canvas id='miCanvas'>
+			</canvas>
+		</footer>
+	</body>
+ </html>

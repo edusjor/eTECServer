@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html Lang="es">
+	<head>
+		<meta charset='utf-8' >
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src='scriptPrincipal.js'></script>
+	</head>
+	<body>
+		<div id='contenido'>
+			<header>
+				<hgroup>
+					<h1> eTECServer</h1>
+				</hgroup>
+				<nav>
+					<ul>
+						<li><a href='index.html'> Inicio</a> </li>
+							
+						
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div id='textoPr'>
+	
+					<hgroup>
+						<h1> VER Y CAMBIAR ESTADO DE PAQUETES</h1>
+					</hgroup>
+					
+					<label for=' nombre'>CODIGO DE PAQUETE EN TRANSITO:</label>
+					<input type='text' id='paqentransito' placeholder= 'Digite el codigo'>
+					<input type='submit' value='Aceptar' id='btnSubmit'>
+													
+					<label for=' nombre'>CODIGO DE PAQUETE RECIBIDO:</label>
+					<input type='text' id='paqrecibido' placeholder= 'Digite el codigo'>
+					<input type='submit' value='Aceptar' id='btnSubmit'>
+					
+					<label for=' nombre'>CODIGO DE PAQUETE ENTREGADO:</label>
+					<input type='text' id='paqentregado' placeholder= 'Digite el codigo'>
+					<input type='submit' value='Aceptar' id='btnSubmit'>
+					
+					<label for=' nombre'>CODIGO DE PAQUETE A CONSULTAR:</label>
+					<input type='text' id='paqaconsultar' placeholder= 'Digite el codigo'>
+					<input type='submit' value='Aceptar' id='btnSubmit'>
+					
+					
+
+				</div>
+			</section>
+		</div>
+		<footer>
+			<canvas id='miCanvas'>
+			</canvas>
+		</footer>
+	</body>
+ </html>

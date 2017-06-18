@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html Lang="es">
+	<head>
+		<meta charset='utf-8' >
+		<title>Detalles nuevo producto</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src='scriptPrincipal.js'></script>
+	</head>
+	<body>
+		<div id='contenido'>
+			<header>
+				<hgroup>
+					<h1> eTECWebSite</h1>
+				</hgroup>
+				<nav>
+					<ul>
+						<li><a href='index.html'> Inicio</a> </li>
+												
+					</ul>
+				</nav>
+			</header>
+			<section>
+				<div id='textoPr'>
+	
+					<hgroup>
+						<h1> DETALLES DEL NUEVO PRODUCTO</h1>
+					</hgroup>
+					
+					<label for=' nombre'>NOMBRE DETALLADO:</label>
+					<input type='text' id='nombre' placeholder= 'Digite el nombre'>
+					<input type='submit' value='Guardar' id='btnSave'>
+													
+					<label for=' nombre'>PRECIO EN COLONES:</label>
+					<input type='text' id='nombre' placeholder= 'Digite el precio'>
+					<input type='submit' value='Guardar' id='btnSaveEdit' onclick = "location='/eTECServer/editarnuevoproducto.html'">
+					
+					<label for=' nombre'>DETALLES ADICIONALES:</label>
+					<input type='text' id='nombre' placeholder= 'Opcional'>
+					<input type='submit' value='Guardar' id='btnSaveEdit' onclick = "location='/eTECServer/editarnuevoproducto.html'">
+					
+					<label for=' nombre'>DIGITE EL NOMBRE EXACTO DE LA TIENDA ASOCIADA AL NUEVO PRODUCTO O PRESIONE BUSCAR TIENDA:</label>
+					<input type='text' id='nombre' placeholder= 'Nombre exacto de tienda'>
+					<input type='submit' value='Guardar' id='btnSaveEdit' onclick = "location='/eTECServer/editarnuevoproducto.html'">
+					
+					<input type='submit' value='Buscar tienda' id='btnSaveEdit' onclick = "location='/eTECServer/editarnuevoproducto.html'">
+					
+						
+
+				</div>
+			</section>
+		</div>
+		<footer>
+			<canvas id='miCanvas'>
+			</canvas>
+		</footer>
+	</body>
+ </html>
